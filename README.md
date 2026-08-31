@@ -1,9 +1,6 @@
-# AI Tester Blueprint 3.x
+# AI Testing practice for QA
 
 A project-driven course for QA engineers to use LLMs as real testing tools — prompts, agents, RAG, and MCP.
-
-- **Author:** Purvi B
-- **GitHub:** [github.com/erpurvi](https://github.com/erpurvi)
 
 ---
 
@@ -55,34 +52,7 @@ Project_Job_TRACKERAI/                     Local-first job application tracker
 
 ---
 
-## How to Use This Repo
+## Author
 
-Read it linearly, or jump straight to a project:
-
-- **"I want better test cases now."** → `chapter_02_Prompt_Eng/templates/`
-- **"I want my model to stop making things up."** → `chapter_02_Prompt_Eng/Anti_Hallucinations_Rules.md`
-- **"I want to generate a test plan from Jira."** → `chapter_03_BLAST_FW_JIRA_AI_AGENT/`
-- **"I want to tell flaky tests from real failures."** → `chapter_05_AI_Agents_LangFlow/flaky_test_analyzer_ai_Agent/`
-- **"I want to see a RAG pipeline end to end."** → `chapter_07_RAG/Basic_RAG/rag-explorer/`
-- **"I want one cited answer across my QA knowledge base."** → `chapter_08_QABuddyAI/`
-- **"I want to build my own MCP server."** → `chapter_10_MCP_Creation_VIBE/testcase-creator-mcp/`
-- **"I'm a manual tester and I don't know Python yet."** → `chapter_11_Python_Learning/ex_01_Python_Basics/Lab001_Hello.py`
-- **"I want the big picture — Jira story to executed automation."** → `chapter_16_E2E_QA_Pipeline/E2E_QA_Pipeline.md`
-
----
-
-## Requirements
-
-- **Any modern LLM** (Claude / GPT / Gemini / DeepSeek) for the prompting chapters — no specific provider required.
-- **Node.js 18+ / 20+** and npm for the React apps (chapters 3, 4, 5, 7) and Job Tracker AI.
-- **Python 3.10+** for the RAG, CrewAI, MCP server, and Python-learning chapters.
-- **Groq API key** for most LLM-powered projects (free tier works); a few use OpenRouter, DeepSeek, Gemini, or OpenAI.
-- **Ollama** (with `nomic-embed-text`) for the Basic RAG app; **Docker** only for the QABuddy VPS deployment and LangFlow.
-- **JDK 11+ and Maven 3.9+** only for the Selenium framework in chapter 02.
-- **Jira API credentials** for the chapters that read Jira (3 and 13); both support demo mode or local fixtures.
-
-Each chapter's own README carries the exact setup steps. No real credentials are committed — `.env` files are gitignored.
-
----
-
-Made by [Purvi B](https://github.com/erpurvi).
+- **Author:** Purvi B
+- **GitHub:** [github.com/erpurvi](https://github.com/erpurvi)
