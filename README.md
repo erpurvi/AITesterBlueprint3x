@@ -50,9 +50,4 @@ chapter_16_E2E_QA_Pipeline/                End-to-end AI QA pipeline blueprint
 Project_Job_TRACKERAI/                     Local-first job application tracker
 ```
 
----
 
-## Author
-
-- **Author:** Purvi B
-- **GitHub:** [github.com/erpurvi](https://github.com/erpurvi)
